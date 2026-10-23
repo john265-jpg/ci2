@@ -1,7 +1,7 @@
 # ci2
 chemical infomatics
 
-apt install pip
+apt install python3-pip
 pip install beautifulsoup4 
 
 ssh -T git@github.com
