@@ -1,16 +1,22 @@
 # ci2
 chemical infomatics
 
+apt install pip
+pip install beautifulsoup4 
+
+ssh -T git@github.com
 git clone git@github.com:john265-jpg/ci2.git
 
-vi README.md
-mkdir A02
-vi test.txt
-vi texter.py
-python3 texter.py text.txt
+mkdir A03
+cd /mnt/c/.....
+mv sdbs_benzidine.html ~/ci2/AO3
+cd ~/ci2/AO3
+vi sdbs_parser.py
 
+python3 sdbs_parser.py sdbs_benzidine.html
+
+git add AO3
 git add README.md
-git add A02
 git commit -m "jej"
 
 
