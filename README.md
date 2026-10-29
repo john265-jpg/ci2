@@ -1,21 +1,16 @@
 # ci2
 chemical infomatics
 
-apt install python3-pip
-pip install beautifulsoup4 
-
 ssh -T git@github.com
-git clone git@github.com:john265-jpg/ci2.git
 
-mkdir A03
-cd /mnt/c/.....
-mv sdbs_benzidine.html ~/ci2/AO3
-cd ~/ci2/AO3
-vi sdbs_parser.py
+mkdir A04
+mv /mnt/c/..../world ~/AO4
+mv city.csv ../
+vi db.py
 
-python3 sdbs_parser.py sdbs_benzidine.html
+python3 db.py city.csv country.csv countrylanguage.csv 
 
-git add AO3
+git add AO4
 git add README.md
 git commit -m "jej"
 
