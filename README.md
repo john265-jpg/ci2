@@ -3,14 +3,14 @@ chemical infomatics
 
 ssh -T git@github.com
 
-mkdir A04
-mv /mnt/c/..../world ~/AO4
-mv city.csv ../
-vi db.py
+mkdir A05
+mv /mnt/c/..../  AO5
+vi cdx2png.py
 
-python3 db.py city.csv country.csv countrylanguage.csv 
+python3 cdx2png.py *.cdxml 
+vi README.md
 
-git add AO4
+git add A05
 git add README.md
 git commit -m "jej"
 
