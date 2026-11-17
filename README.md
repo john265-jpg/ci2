@@ -1,19 +1,14 @@
 # ci2
 chemical infomatics
 
-ssh -T git@github.com
-
-mkdir A05
-mv /mnt/c/..../  AO5
+git clone git@github.com:john265-jpg/ci2.git
 vi cdx2png.py
 
 python3 cdx2png.py *.cdxml 
-vi README.md
 
 git add A05
 git add README.md
-git commit -m "jej"
-
+git commit
 
 
 git push
